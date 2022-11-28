@@ -1,0 +1,90 @@
+.add-album, .add-nome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-1 {
+    margin-top: 1rem;
+}
+
+input {
+    margin-top: .5rem;
+    background: none;
+    font: .9rem var(--texto);
+    color: var(--branco);
+    border: none;
+    border-bottom: 1px solid var(--azul-claro);
+    width: 15rem;
+    height: 1.5rem;
+    transition: .2s;
+}
+
+input:hover {
+    background: #00c5cc23;
+    cursor: auto;
+}
+
+button {
+    background: none;
+    font: .9rem var(--texto);
+    color: var(--branco);
+    border: 1px solid var(--azul-claro);
+    border-radius: 5px;
+    width: 7.5rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    transition: .2s;
+}
+
+button:hover {
+    background: #00c5cc23;
+    cursor: pointer;
+    width: 8rem;
+}
+
+.albuns {
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+.albuns img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--branco);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: .9rem;
+    transition: .5s;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.albuns img:hover {
+    width: 190px;
+    height: 190px;
+    box-shadow: none;
+    margin-bottom: .9rem;
+}
+
+.albuns__texto {
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+#listaDeAlbuns {
+    margin-bottom: 5rem;
+    justify-content: flex-start;
+}
+
+.titulo {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+}
+
+.subtitulo {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+}

@@ -1,0 +1,10 @@
+.rodape {
+    padding-top: 1.5rem;
+}
+
+.rodape_texto {
+    padding-top: 2.7rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300px;
+    font-size: 40px;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+:root {
+    --branco: #FFF;
+    --bg-all: #1D1D1D;
+    --azul-claro: #00C4CC;
+    --azul-escuro: #4c0bd1;
+    --rosa: #ee3ec9;
+    
+
+    --planos-cartao-ultra: #B04CD9;
+    --planos-cartao-mega: #E33B3B;
+
+    --texto: 'Comfortaa', cursive;
+}
+
+h1, h2, h3, h4, h5, p, label {
+    color: var(--branco);
+}
+
+body {
+    background: var(--bg-all);
+    text-align: center;
+    font-family: var(--texto);
+    background-image: url("../img/wave1\ -\ 1920.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 657px;
+}

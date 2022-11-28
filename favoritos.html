@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos | AluraMidia</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topoFavoritos.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="topo">
+        <nav class="topo__home">
+            <div class="topo__home_logo">
+                <img src="img/aluraMidia.svg" alt="" class="logo">
+                <h1 class="logo__texto">AluraMidia</h1>
+            </div>
+            <div class="topo__home_abas">
+                <li class="topo__abas">
+                    <ul class="topo__abas_home"><a href="homePage.html"><img src="img/Home Icon.svg" alt="">
+                            <p>Home</p>
+                        </a></ul>
+                    <ul class="topo__abas_favoritos"><a href="favoritos.html"><img src="img/Favoritos Icon.svg" alt="">
+                            <p>Favoritos</p>
+                        </a></ul>
+                    <ul class="topo__abas_cliente"><a href="cliente.html"><img src="img/icon.svg" alt="">
+                            <p>Cliente</p>
+                        </a></ul>
+                </li>
+            </div>
+        </nav>
+    </header>
+
+    <div class="add-album">
+        <label>Insira a url do album</label>
+        <input type="text" id="album" required>
+    </div>
+    <div class="add-nome">
+        <label class="text-1">Insira o nome do album</label>
+        <input type="text" id="nome_album" required>
+        <button type="submit" onclick="AdicionarNome()">Adicionar</button>
+    </div>
+
+    
+    <h2 class="subtitulo">Adicionadas recentemente</h2>
+    <div id="listaDeAlbuns" class="albuns"></div>
+    <script src="js/script.js"></script>
+    
+    <h1 class="titulo">Mais Vistos</h1>
+    <ul class="albuns">
+        <li>
+            <img src="https://www.acdcbrasil.net/wp-content/uploads/capa-acdc-highway-to-hell.jpg" alt="" class="imagens__albuns">
+            <h2 class="albuns__texto">AC/DC</h2>
+        </li>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/b/b5/Overexposed.jpg" alt="" class="imagens__albuns">
+            <h2 class="albuns__texto">Maroon Five</h2>
+        </li>
+        <li>
+            <img src="https://m.media-amazon.com/images/I/718V6LNMT9L._AC_SX425_.jpg" alt="" class="imagens__albuns">
+            <h2 class="albuns__texto">Imagine Dragons</h2>
+        </li>
+        <li>
+            <img src="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2014/03/The-Doors-e1395243841905.jpg" alt="" class="imagens__albuns">
+            <h2 class="albuns__texto">The Doors</h2>
+        </li>
+    </ul>
+</body>
+
+</html>

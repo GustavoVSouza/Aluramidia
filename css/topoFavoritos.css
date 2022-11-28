@@ -1,0 +1,53 @@
+.topo__home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.topo__abas_home img:hover{
+    border: 2px solid var(--azul-claro);
+    border-radius: 9px;
+}
+
+.topo__abas_favoritos img{
+    border: 2px solid var(--azul-claro);
+    border-radius: 9px;
+}
+
+.logo {
+    max-width: 125px;
+}
+
+.logo__texto {
+    padding-left: 1rem;
+    font-size: 1.7rem;
+}
+
+.topo__home_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topo__abas {
+    display: flex;
+    flex-direction: row;
+}
+
+.topo__abas img{
+    max-width: 35px;
+}
+
+.topo__abas_favoritos {
+    margin-left: 2.5rem;
+}
+
+.topo__abas_cliente {
+    margin-left: 2.5rem;
+}
+
+.topo__abas_cliente img:hover {
+    border: 2px solid var(--azul-claro);
+    border-radius: 50%;
+}

@@ -1,0 +1,8 @@
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho__logo {
+    max-width: 15rem;
+    padding: 2rem;
+}

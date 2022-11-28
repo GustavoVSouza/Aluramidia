@@ -1,0 +1,37 @@
+.verifica__login {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.verifica__login_esqueceu {
+    display: inline;
+    color: var(--azul-claro);
+}
+
+.verifica__login_cadastra {
+    display: inline-block;
+    color: var(--azul-claro);
+}
+
+.verifica__login_link {
+    margin-top: 1rem;
+}
+
+.verifica__botao_acesso {
+    background: none;
+    font: .9rem var(--texto);
+    color: var(--branco);
+    border: 1px solid var(--azul-claro);
+    border-radius: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    transition: .2s;
+}
+
+.verifica__botao_acesso:hover {
+    background: #00c5cc23;
+    cursor: pointer;
+    width: 5.5rem;
+}

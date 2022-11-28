@@ -1,0 +1,19 @@
+.excluida h2{
+    font-size: 5rem;
+}
+
+.excluida button {
+    background: none;
+    font: .9rem var(--texto);
+    color: var(--branco);
+    border: 1px solid var(--azul-claro);
+    border-radius: 5px;
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 5rem;
+}
+
+button:hover {
+    background: #00c5cc23;
+    cursor: pointer;
+}
